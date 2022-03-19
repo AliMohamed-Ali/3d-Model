@@ -1,0 +1,18 @@
+const dayOne = new Date('March 13 2022 12:00:00')
+const dayTwo = new Date()
+
+const dayOneTimeStamp = dayOne.getTime()
+const dayTwoTimeStamp = dayTwo.getTime()
+if(dayOneTimeStamp < dayTwoTimeStamp ){
+    console.log(dayOne.toString())
+} else if(dayTwoTimeStamp < dayOneTimeStamp){
+    console.log(dayTwo.toString())
+
+}
+
+// console.log(now.getFullYear())
+// console.log(now.getMonth())
+// console.log(now.getDay())
+// console.log(now.getMinutes())
+// console.log(now.getSeconds())
+// console.log(now.getHours())
